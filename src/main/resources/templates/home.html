@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+</head>
+<body>
+<p th:text=" ${Calc} " />
+<p th:text="${Action} " />
+
+<form method="get" action="/Get">
+  <input  type="submit" value="Get"/>
+</form>
+
+<form method="get" action="/p">
+  <input  type="submit" value="Post"/>
+</form>
+</body>
+</html>
